@@ -1,0 +1,285 @@
+#body {
+    font-family: Fira Code;
+    background-color: #282C33;
+    position: relative;
+}
+
+ .layout {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 8fr auto auto;
+  }
+
+  .custom-container {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #30353E;
+    padding-bottom: 35px;
+}
+
+ #footer {
+    grid-column-start: -3;
+    grid-column-end: -2;
+  }
+
+/* Global colors */
+
+.text-primary-color {
+    color: white;
+}
+
+.text-sec-color {
+    color: #d6d7d8;
+}
+
+.accent-color {
+    color: #FFD369;
+}
+
+/* Global buttons styling */
+
+.button-style {
+    background-color: #30353E;
+    color: #d6d7d8;
+    border: 1px solid #d6d7d8;
+}
+
+button:hover {
+    border: 1px solid #FFD369;
+    color: white;
+}
+
+/* Navbar CSS */
+
+h1 {
+    font-size: 1.5rem !important;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.nav-custom {
+    justify-content: right;
+}
+
+.nav-custom > ul > li > a {
+     font-size: 1.2rem;
+     color: #ABB2BF;
+}
+
+:root {
+    --bs-emphasis-color-rgb: 255,255,255
+}
+
+/* Quote CSS */
+
+blockquote {
+    border: 1px solid #FFD369;
+    padding: 10px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+cite {
+    border: 1px solid #FFD369;
+    padding: 10px;
+    float: right;
+    background-color: #30353E;
+}
+
+.quote-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #30353E;
+    text-align: center;
+}
+
+blockquote::before {
+    content: '\201C';
+    position: absolute;
+    top: -22px;
+    background: #30353E;
+    width: 2rem;
+    height: 2rem;
+    font-size: 3rem;
+    color: #d6d7d8;
+}
+
+blockquote::after {
+    content: '\201C';
+    position: absolute;
+    bottom: -8px;
+    background: #30353E;
+    width: 1.7rem;
+    right: 10px;
+    height: 1.7rem;
+    font-size: 3rem;
+    color: #d6d7d8;
+}
+
+/* projects section css */
+
+.section-margin {
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
+.project-summary {
+    background-color: #30353e;
+    color: #d6d7d8;
+    border-bottom: 1px solid #FFD369;
+}
+
+.card-border {
+    border: 1px solid #FFD369;
+    border-radius: 1%;
+}
+
+.hr-line {
+    height: 1px; 
+    background-color: #FFD369;
+    width: 85%;
+}
+
+h5 {
+    color: white;
+    padding-right: 15px;
+}
+
+#viewall > div > a {
+    font-size: 1.2rem;
+    color: white;
+}
+
+#viewall span {
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Skills section custom css */
+
+.hr-line-skills {
+    height: 1px; 
+    background-color: #FFD369;
+    width: 30%;
+}
+
+.hr-line-about {
+    height: 1px; 
+    background-color: #FFD369;
+    width: 50%;
+}
+
+/* Contact me section */
+
+.contact-me {
+    max-width: 50%; 
+    float: right;
+}
+
+  @media (max-width: 1199.98px) {
+    .contact-me {
+        min-width: 100%; 
+    }
+  }
+
+  /* Footer CSS */
+
+  .hr-100 {
+    height: 1px; 
+    background-color: #FFD369;
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: -2;
+  }
+
+  .footer-style {
+    background-color: #30353e;
+    color: #d6d7d8;
+    float: right;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #30353E;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-style {
+        float: left;
+  } }
+
+
+/* Decoration CSS below */
+
+  .vertical-line {
+    height: 250px;
+    width: 2px;
+    background-color: #d6d7d8;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .decor-icons {
+    display: block;
+    margin: 15px auto;
+  } 
+
+  .hr-100 {
+    height: 1px; 
+    background-color: #FFD369;
+    width: 100%;
+    grid-column-start: -4;
+    grid-column-end: -1;
+  }
+
+ #decor-left-1st {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #d6d7d8;
+    position: relative;
+    top: 15%;
+    left: -50%;
+  }
+
+ #decor-img-left {
+    position: relative;
+    top: 25%;
+    left: -30%;
+  }
+
+  #decor-left-2nd {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #d6d7d8;
+    position: relative;
+    top: 45%;
+    left: -30%;
+  }
+
+  #decor-right-1st {
+    height: 75px;
+    width: 100px;
+    border: 1px solid #d6d7d8;
+    position: relative;
+    top: 15%;
+    right: -40%;
+  }
+
+  #decor-right-2nd {
+    height: 150px;
+    width: 100px;
+    border: 1px solid #d6d7d8;
+    position: relative;
+    top: 35%;
+    right: -60%;
+  }
+
+  #decor-img-right {
+    position: relative;
+    top: 75%;
+    right: -30%;
+  }
