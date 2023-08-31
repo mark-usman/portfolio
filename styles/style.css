@@ -283,3 +283,23 @@ h5 {
     top: 75%;
     right: -30%;
   }
+/* The following media query hides the decorations and gives the body 85% width on mobile screens. */
+  @media (max-width: 720px) {
+
+    #right-decor {
+    display: none;
+  }
+
+    #left-decor {
+    display: none;
+}
+
+   .layout {
+    display: block;
+  }
+
+  .custom-container {
+    width: 85%;
+  } 
+  
+  }
